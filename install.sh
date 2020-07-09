@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
-
 echo "Installing..."
 
 hash rz > /dev/null 2>&1
@@ -16,7 +15,7 @@ curl -sSL https://github.com/liziqiang/lrzsz/raw/master/iterm2-send-zmodem.sh -o
 chmod +x "$recv" "$send"
 
 echo "Done!
-#After install you should set up iterm2 trigger
+# To make it work, you should set up iterm2 trigger
 
 # Set up Triggers in iTerm 2 like so:
 #     Regular expression: \*\*B0100
