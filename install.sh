@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-echo "Installing..."
+echo "Installing lrzsz..."
 
 hash rz > /dev/null 2>&1
 if [ $? -eq 1 ]; then
