@@ -17,7 +17,6 @@ chmod +x "$recv" "$send"
 
 echo "Done!
 #After install you should set up iterm2 trigger
-# https://github.com/zzy0-0/iterm2-zmodem#setup
 
 # Set up Triggers in iTerm 2 like so:
 #     Regular expression: \*\*B0100
